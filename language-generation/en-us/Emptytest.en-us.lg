@@ -1,0 +1,34 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# ChoiceInput_Prompt_thYbvC()
+[Activity
+    Text = ${ChoiceInput_Prompt_thYbvC_text()}
+]
+
+# ChoiceInput_Prompt_thYbvC_text()
+- what are you looking for
+# SendActivity_res3()
+- You selected Go To DMS
+
+-https://presalesvmfe51fe78c395c983devaos.axcloud.dynamics.com/?cmp=DAT&mi=DefaultDashboard
+# SendActivity_res1()
+- You selected Create MR
+- https://teams.microsoft.com/l/app/f6405520-7907-4464-8f6e-9889e2fb7d8f?templateInstanceId=37d91fdd-a29b-428c-8c37-e9f9f8190fce&environment=13abdf17-d81b-eefb-8bd1-f69c35265059&source=app-header-share-entrypoint
+# SendActivity_res2()
+- You selected Status MR
+-https://teams.microsoft.com/l/app/f6405520-7907-4464-8f6e-9889e2fb7d8f?templateInstanceId=37d91fdd-a29b-428c-8c37-e9f9f8190fce&environment=13abdf17-d81b-eefb-8bd1-f69c35265059&source=app-header-share-entrypoint
